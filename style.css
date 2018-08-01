@@ -1,0 +1,41 @@
+.wrapper{
+    width:600px;
+    background: grey;
+    text-align:left;
+    margin: 0;
+    padding:0;
+   
+    
+    
+
+}
+.d1{background:LightSkyBlue;}
+    .d2{background:LightSalmon;}
+    .d3{background:PaleTurquoise;}
+    .d4{background:LightPink;}
+    .d5{background:PaleGreen;}
+    .d6{background:red;}
+    
+    .container {
+      font-size: 40px;
+      min-height: 400px;
+      width: 100%;
+      background: LightGray;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr 1fr 1fr;
+      /* add your code below this line */
+      
+      
+      /* add your code above this line */
+    }
+li {
+    float: right;
+    background: grey;
+    
+}
+.heading{
+    height:100px;
+    background: green;
+    padding: 20px;
+}
